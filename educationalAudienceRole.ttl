@@ -1,0 +1,69 @@
+@base <http://w3id.org/comein/vocabs/educationalAudienceRole/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Zielgruppe"@de ;
+    dct:title "Intended End User Role"@en ;
+    dct:description "Eine Werteliste für Zielgruppen als Lernende, für welche die Ressource konzipiert wurde."@de ;
+    dct:description "A value list for target groups as learners for which the learning object was designed for."@en ;
+    dct:created "2020-04-08"^^xsd:date ;
+    dct:modified "2021-06-08"^^xsd:date ;
+    dct:issued "2020-04-08"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <studyinterest>, <student>, <pupil>, <teacher>, <universityteacher>, <seminarteacher>, <trainer>, <studentteacher>, <studenttrainee> .
+
+<studyinterest> a skos:Concept ;
+  skos:prefLabel "Studieninteressent/-in"@de ;
+  skos:prefLabel "study interest"@en ;
+  skos:definition "A person interested in studying."@en ;
+  skos:topConceptOf <> .
+
+<student> a skos:Concept ;
+  skos:prefLabel "Student/-in"@de ;
+  skos:prefLabel "student"@en ;
+  skos:definition "The student learner or trainee."@en ;
+  skos:narrower <teachertraining> ;
+  skos:topConceptOf <> .
+
+<teachertraining> a skos:Concept ;
+  skos:prefLabel "Lehramtsstudent/-in"@de ;
+  skos:broader <student> ;
+  skos:inScheme <> .
+
+<pupil> a skos:Concept ;
+  skos:prefLabel "Schüler/-in"@de ;
+  skos:prefLabel "pupils"@en ;
+  skos:definition "The pupil learner or trainee."@en ;
+  skos:topConceptOf <> .
+
+<teacher> a skos:Concept ;
+  skos:prefLabel "Lehrer/-in"@de ;
+  skos:prefLabel "teachers"@en ;
+  skos:definition "A person who has been trained to implement educational methods and practices in school."@en ;
+  skos:topConceptOf <> .
+
+<universityteacher> a skos:Concept ;
+  skos:prefLabel "Hochschullehrer/-in"@de ;
+  skos:prefLabel "university teachers"@en ;
+  skos:definition "A person who has been trained to implement educational methods and practices in university."@en ;
+  skos:topConceptOf <> .
+
+<studentteacher> a skos:Concept ;
+  skos:prefLabel "Lehramtsanwärter/-in"@de ;
+  skos:altLabel "Referendar/-in"@de ;
+  skos:altLabel "Lehrer/-in im Vorbereitungsdienst"@de ;
+  skos:topConceptOf <> .
+
+<seminarteacher> a skos:Concept ;
+  skos:prefLabel "Seminarleiter/-in"@de ;
+  skos:topConceptOf <> .
+
+<trainer> a skos:Concept ;
+  skos:prefLabel "Fortbildner/-in"@de ;
+  skos:topConceptOf <> .
+
+<studenttrainee> a skos:Concept ;
+  skos:prefLabel "Studienreferendar/-in"@de ;
+  skos:topConceptOf <> .
