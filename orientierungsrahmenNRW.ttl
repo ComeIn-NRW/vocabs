@@ -1,0 +1,156 @@
+@base <http://w3id.org/comein/vocabs/orientierungsrahmenNRW> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"@de ;
+    dct:description ""@de ;
+    dct:issued "2020-02-11" ;
+    dct:modified "2020-02-11" ;
+    skos:hasTopConcept <01>, <02>, <03>, <04>, <05> .
+
+<01> a skos:Concept ;
+    skos:prefLabel "Unterrichten"@de ;
+    skos:narrower <0101>, <0102>, <0103>, <0104> ;
+    skos:topConceptOf <> .
+
+<0101> a skos:Concept ;
+    skos:prefLabel "Digitale Lehr- Lernressource"@de ;
+    skos:definition "Digitale Ressourcen und Materialien für das Lehren und Lernen adressatengerecht und zielorientiert auswählen, modifizieren und eigenständig erstellen."@de ;
+    skos:broader <01> ;
+    skos:inScheme <> .
+
+<0102> a skos:Concept ;
+    skos:prefLabel "Schüler- und Kompetenzorientierung"@de ;
+    skos:definition "Digitale Medien im (Fach-)Unterricht reflektiert, situationsgerecht, schüler- und kompetenzorientiert unter Berücksichtigung unterschiedlicher Lernvoraussetzungen und Lernausgangslagen einsetzen."@de ;
+    skos:broader <01> ;
+    skos:inScheme <> .
+
+<0103> a skos:Concept ;
+    skos:prefLabel "Veränderung der Lernkultur"@de ;
+    skos:definition "Lernkultur teamorientiert, kooperativ und kollaborativ unter Nutzung erweiterter pädagogischer Ansätze und technologischer Möglichkeiten gestalten und personalisiertes und selbstbestimmtes Lernen unterstützen."@de ;
+    skos:broader <01> ;
+    skos:inScheme <> .
+
+<0104> a skos:Concept ;
+    skos:prefLabel "Digitale Transformationsprozesse"@de ;
+    skos:definition "Lernarrangements unter Berücksichtigung sozialer und kultureller Lebensbedingungen und gesellschaftlicher sowie arbeitsweltlicher Transformationsprozesse im Zuge der Digitalisierung planen, durchführen und reflektieren."@de ;
+    skos:broader <01> ;
+    skos:inScheme <> .
+
+<02> a skos:Concept ;
+    skos:prefLabel "Erziehen"@de ;
+    skos:narrower <0201>, <0202>, <0203>, <0204> ;
+    skos:topConceptOf <> .
+
+<0201> a skos:Concept ;
+    skos:prefLabel "Verantwortliche Mediennutzung"@de ;
+    skos:definition "Die Bedeutung von Medien und Digitalisierung kennen und Schülerinnen und Schüler befähigen, das eigene Medienhandeln und die Mediengestaltung kritisch zu reflektieren, um Medien zielgerichtet und sozial verantwortlich zu nutzen."@de ;
+    skos:broader <02> ;
+    skos:inScheme <> .
+
+<0202> a skos:Concept ;
+    skos:prefLabel "Identitätsbildung und Informationskritik"@de ;
+    skos:definition "Schülerinnen und Schülern bei der Entwicklung ihrer Identitätsbildung in der digitalisierten Welt unterstützen, zur Reflexion des eigenen Medienhandelns anregen sowie eine kritische Haltung und einen kompetenten Umgang mit Medienangeboten und Medieninhalten unterstützen."@de ;
+    skos:broader <02> ;
+    skos:inScheme <> .
+
+<0203> a skos:Concept ;
+    skos:prefLabel "Medienrecht und -ethik"@de ;
+    skos:definition "Medienrechtliche und medienethische Konzepte im Schul- und Unterrichtsalltag sowie bei der eigenen professionellen Mediennutzung reflektieren und ihre Bedeutung für Werthaltung, Meinungsbildung und Entscheidungsprozesse kennen und berücksichtigen."@de ;
+    skos:broader <02> ;
+    skos:inScheme <> .
+
+<0204> a skos:Concept ;
+    skos:prefLabel "Regeln, Normen und Werte"@de ;
+    skos:definition "Gemeinsame Regeln, Normen und Werte zum kritischen und eigenverantwortlichen Umgang mit digitalen Medien in medialen Bildungsräumen in Schule und Unterricht etablieren, in gesellschaftlichen und arbeitsweltlichen Zusammenhängen reflektieren und umsetzen."@de ;
+    skos:broader <02> ;
+    skos:inScheme <> .
+
+<03> a skos:Concept ;
+    skos:prefLabel "Lernen und Leisten fördern"@de ;
+    skos:narrower <0301>, <0302>, <0303>, <0304> ;
+    skos:topConceptOf <> .
+
+<0301> a skos:Concept ;
+    skos:prefLabel "Diagnostik und individuelle Förderung"@de ;
+    skos:definition "Digitale Möglichkeiten für die Diagnostik und für die individuelle Förderung der Lernenden mit unterschiedlichen Lernvoraussetzungen innerhalb und außerhalb des Unterrichts nutzen."@de ;
+    skos:broader <03> ;
+    skos:inScheme <> .
+
+<0302> a skos:Concept ;
+    skos:prefLabel "Eigenverantwortliches Lernen"@de ;
+    skos:definition "Medienkompetenz der Schülerinnen und Schüler erfassen, weiterentwickeln, bei der Gestaltung von Lehr- und Lernprozessen berücksichtigen und Schülerinnen und Schüler befähigen, ihr Lernen mithilfe digitaler Medien innerhalb und außerhalb der Schule zu gestalten."@de ;
+    skos:broader <03> ;
+    skos:inScheme <> .
+
+<0303> a skos:Concept ;
+    skos:prefLabel "Aufgaben- und Prüfungsformate"@de ;
+    skos:definition "Neue, auch adaptive technologiebasierte Aufgaben- und Prüfungsformate kennen, einsetzen und selbstständig entwickeln."@de ;
+    skos:broader <03> ;
+    skos:inScheme <> .
+
+<0304> a skos:Concept ;
+    skos:prefLabel "Bildungschancen"@de ;
+    skos:definition "Die besondere Relevanz von Medienkompetenz für Bildungsprozesse und das lebenslange Lernen erkennen, reflektieren und für Schule und Unterricht im Hinblick auf bestmögliche Bildungschancen für alle Schülerinnen und Schüler verantwortungsvoll gestalten."@de ;
+    skos:broader <03> ;
+    skos:inScheme <> .
+
+<04> a skos:Concept ;
+    skos:prefLabel "Beraten"@de ;
+    skos:narrower <0401>, <0402>, <0403>, <0404> ;
+    skos:topConceptOf <> .
+
+<0401> a skos:Concept ;
+    skos:prefLabel "Lernberatung"@de ;
+    skos:definition "Möglichkeiten lernprozessbegleitenden und summativen Feedbacks mithilfe digitaler Medien kennen und gezielt für die Lernberatung einsetzen."@de ;
+    skos:broader <04> ;
+    skos:inScheme <> .
+
+<0402> a skos:Concept ;
+    skos:prefLabel "Beratungskonzepte"@de ;
+    skos:definition "Beratungsanlässe zum Umgang mit medienbezogenen Verhaltensproblemen erkennen und geeignete Beratungskonzepte entwickeln und nutzen."@de ;
+    skos:broader <04> ;
+    skos:inScheme <> .
+
+<0403> a skos:Concept ;
+    skos:prefLabel "Kooperation mit Beratungseinrichtungen"@de ;
+    skos:definition "Mit externen Beratungseinrichtungen, u. a. den Trägern der Kinder- und Jugendhilfe, dem Schulpsychologischen Dienst, den kommunalen Medienzentren und der Landesanstalt für Medien NRW im Kontext medienbezogener Beratungsanlässe kooperieren."@de ;
+    skos:broader <04> ;
+    skos:inScheme <> .
+
+<0404> a skos:Concept ;
+    skos:prefLabel "Kooperation und Kommunikation"@de ;
+    skos:definition "Digitale Möglichkeiten für Beratung, Zusammenarbeit, Kooperation und Kommunikation mit Eltern bzw. Erziehungsberechtigten und mit Partnern verschiedener Lernorte, externen Partnern in der Lehreraus- und -fortbildung sowie in multiprofessionellen Teams entwickeln und einsetzen."@de ;
+    skos:broader <04> ;
+    skos:inScheme <> .
+
+<05> a skos:Concept ;
+    skos:prefLabel "Schule entwickeln"@de ;
+    skos:narrower <0501>, <0502>, <0503>, <0504> ;
+    skos:topConceptOf <> .
+
+<0501> a skos:Concept ;
+    skos:prefLabel "Medienbezogene Schulentwicklung"@de ;
+    skos:definition "Schulentwicklungsarbeit an die Anforderungen der Digitalisierung anpassen und ein am Schulprogramm orientiertes schulisches Medienkonzept im Sinne eines pädagogischen Leitbildes verankern, gestalten und umsetzen."@de ;
+    skos:broader <05> ;
+    skos:inScheme <> .
+
+<0502> a skos:Concept ;
+    skos:prefLabel "Gemeinsame Professionalisierung"@de ;
+    skos:definition "Möglichkeiten neuer Technologien zur Zusammenarbeit und gemeinsamen Professionalisierung auf Schulebene und mit Externen für die zukunftsfähige Weiterentwicklung von Schule nutzen."@de ;
+    skos:broader <05> ;
+    skos:inScheme <> .
+
+<0503> a skos:Concept ;
+    skos:prefLabel "Innovationsprozesse"@de ;
+    skos:definition "Technologische und pädagogische Entwicklungen für die Gestaltung und Modernisierung von Schule nutzen und schulische Innovationsprozesse aktiv mitgestalten."@de ;
+    skos:broader <05> ;
+    skos:inScheme <> .
+
+<0504> a skos:Concept ;
+    skos:prefLabel "Organisation und Verwaltung"@de ;
+    skos:definition "Digitale Möglichkeiten und Werkzeuge für schulische Organisations- und Verwaltungstätigkeiten nutzen und rechtliche Aspekte, insbesondere Datenschutz, und Persönlichkeitsrechte sowie technische Aspekte der Informationssicherheit beachten."@de ;
+    skos:broader <05> ;
+    skos:inScheme <> .
