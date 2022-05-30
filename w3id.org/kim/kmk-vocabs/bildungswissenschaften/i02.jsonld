@@ -1,0 +1,201 @@
+{
+  "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i02",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fkim%2Fkmk-vocabs%2Fbildungswissenschaften%2Fi02",
+  "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fkim%2Fkmk-vocabs%2Fbildungswissenschaften%2Fi02",
+  "prefLabel": {
+    "de": "Lehrkräfte verstehen ihren Beruf als ständige Lernaufgabe und entwickeln ihre Kompetenzen weiter."
+  },
+  "narrower": [
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0201",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen kennen Methoden der Selbst- und Fremdevaluation im Kontext der Entwicklung und Sicherung von Unterrichts- und Schulqualität."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0202",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen rezipieren und bewerten Ergebnisse der Bildungs- und Schulforschung."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0203",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen kennen die organisatorischen Bedingungen an Schulen sowie Kooperationsstrukturen im schulischen und außerschulischen Bereich."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0204",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen reflektieren die professionellen Anforderungen des Umgangs mit Diversität und Heterogenität."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0205",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen kennen digitale Technologien für die Zusammenarbeit und eigene Professionalisierung einschließlich ihrer Vor- und Nachteile."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0206",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen kennen Grundprinzipien digitaler Technologien und rechtliche Bestimmungen, die die genutzten Werkzeuge, Unterrichts- und Organisationsmittel betreffen."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0207",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen reflektieren die eigenen beruflichen Haltungen, Erfahrungen und Kompetenzen sowie deren Entwicklung und können hieraus Konsequenzen ziehen."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0208",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen nutzen Erkenntnisse der Bildungs- und Schulforschung für die eigene Tätigkeit."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0209",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen dokumentieren für sich und andere die eigene Arbeit und ihre Ergebnisse."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0210",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen geben Rückmeldungen und nutzen die Rückmeldungen anderer dazu, ihre pädagogische Arbeit zu optimieren."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0211",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen nehmen Mitwirkungsmöglichkeiten wahr."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0212",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen kennen und nutzen Unterstützungsmöglichkeiten für Lehrkräfte."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0213",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen nutzen individuelle und kooperative Fort- und Weiterbildungsangebote."
+      }
+    },
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/i0214",
+      "prefLabel": {
+        "de": "Die Absolventinnen und Absolventen nutzen die Möglichkeiten digitaler Technologien zur Zusammenarbeit und Professionalisierung."
+      }
+    }
+  ],
+  "broader": {
+    "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/04",
+    "prefLabel": {
+      "de": "Innovieren"
+    }
+  },
+  "inScheme": {
+    "id": "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/",
+    "title": {
+      "de": "KMK-Standards für die Lehrerbildung: Bildungswissenschaften (vom 16.12.2004 i.d.F. vom 16.05.2019)"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
