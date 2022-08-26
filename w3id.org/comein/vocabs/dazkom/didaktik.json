@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/didaktik",
+  "id": "https://w3id.org/comein/vocabs/dazkom/didaktik",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fdidaktik",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fdidaktik",
@@ -8,26 +8,26 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/d1",
+      "id": "https://w3id.org/comein/vocabs/dazkom/d1",
       "prefLabel": {
         "de": "Diagnose"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/d2",
+      "id": "https://w3id.org/comein/vocabs/dazkom/d2",
       "prefLabel": {
         "de": "Förderung"
       }
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }
   },
   "topConceptOf": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/"
+    "id": "https://w3id.org/comein/vocabs/dazkom/"
   },
   "@context": {
     "@version": 1.1,

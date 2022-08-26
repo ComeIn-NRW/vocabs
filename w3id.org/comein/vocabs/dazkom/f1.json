@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/f1",
+  "id": "https://w3id.org/comein/vocabs/dazkom/f1",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ff1",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ff1",
@@ -8,38 +8,38 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/f11",
+      "id": "https://w3id.org/comein/vocabs/dazkom/f11",
       "prefLabel": {
         "de": "Morphologie"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/f12",
+      "id": "https://w3id.org/comein/vocabs/dazkom/f12",
       "prefLabel": {
         "de": "(Lexikalische) Semantik"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/f13",
+      "id": "https://w3id.org/comein/vocabs/dazkom/f13",
       "prefLabel": {
         "de": "Syntax"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/f14",
+      "id": "https://w3id.org/comein/vocabs/dazkom/f14",
       "prefLabel": {
         "de": "Textlinguistik"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/fachregister",
+    "id": "https://w3id.org/comein/vocabs/dazkom/fachregister",
     "prefLabel": {
       "de": "Fachregister (Fokus auf Sprache)"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }

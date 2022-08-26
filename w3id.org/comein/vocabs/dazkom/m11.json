@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/m11",
+  "id": "https://w3id.org/comein/vocabs/dazkom/m11",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fm11",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fm11",
@@ -7,13 +7,13 @@
     "de": "Interlanguage-Hypothese"
   },
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/m1",
+    "id": "https://w3id.org/comein/vocabs/dazkom/m1",
     "prefLabel": {
       "de": "Zweitspracherwerb"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }

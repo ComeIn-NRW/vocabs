@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/m2",
+  "id": "https://w3id.org/comein/vocabs/dazkom/m2",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fm2",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fm2",
@@ -8,26 +8,26 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/m21",
+      "id": "https://w3id.org/comein/vocabs/dazkom/m21",
       "prefLabel": {
         "de": "Sprachliche Vielfalt in der Schule"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/m22",
+      "id": "https://w3id.org/comein/vocabs/dazkom/m22",
       "prefLabel": {
         "de": "Umgang mit Heterogenität"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/mehrsprachigkeit",
+    "id": "https://w3id.org/comein/vocabs/dazkom/mehrsprachigkeit",
     "prefLabel": {
       "de": "Mehrsprachigkeit (Fokus auf den Lernprozess)"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }

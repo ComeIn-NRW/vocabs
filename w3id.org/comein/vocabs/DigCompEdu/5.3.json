@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/DigCompEdu/5.3",
+  "id": "https://w3id.org/comein/vocabs/DigCompEdu/5.3",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2FDigCompEdu%2F5.3",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2FDigCompEdu%2F5.3",
@@ -12,14 +12,14 @@
     "en": "To use digital technologies to foster learners’ active and creative engagement with a subject matter. To use digital technologies within pedagogic strategies that foster learners’ transversal skills, deep thinking and creative expression. To open up learning to new, real-world contexts, which involve learners themselves in hands-on activities, scientific investigation or complex problem solving, or in other ways increase learners’ active involvement in complex subject matters."
   },
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/DigCompEdu/5",
+    "id": "https://w3id.org/comein/vocabs/DigCompEdu/5",
     "prefLabel": {
       "de": "Lernerorientierung",
       "en": "Empowering Learners"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/DigCompEdu/",
+    "id": "https://w3id.org/comein/vocabs/DigCompEdu/",
     "title": {
       "de": "Europäischer Rahmen für die Digitale Kompetenz Lehrender",
       "en": "European Framework for the Digital Competence of Educators"

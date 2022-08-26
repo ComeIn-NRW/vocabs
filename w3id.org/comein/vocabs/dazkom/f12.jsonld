@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/f12",
+  "id": "https://w3id.org/comein/vocabs/dazkom/f12",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ff12",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ff12",
@@ -7,13 +7,13 @@
     "de": "(Lexikalische) Semantik"
   },
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/f1",
+    "id": "https://w3id.org/comein/vocabs/dazkom/f1",
     "prefLabel": {
       "de": "Grammatische Strukturen und Wortschatz"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }

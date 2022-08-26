@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/f22",
+  "id": "https://w3id.org/comein/vocabs/dazkom/f22",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ff22",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ff22",
@@ -7,13 +7,13 @@
     "de": "Sprachliche Bezüge zwischen Darstellungsformen"
   },
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/f2",
+    "id": "https://w3id.org/comein/vocabs/dazkom/f2",
     "prefLabel": {
       "de": "Semiotische Systeme"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }

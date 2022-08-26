@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/fachregister",
+  "id": "https://w3id.org/comein/vocabs/dazkom/fachregister",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ffachregister",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Ffachregister",
@@ -8,26 +8,26 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/f1",
+      "id": "https://w3id.org/comein/vocabs/dazkom/f1",
       "prefLabel": {
         "de": "Grammatische Strukturen und Wortschatz"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/f2",
+      "id": "https://w3id.org/comein/vocabs/dazkom/f2",
       "prefLabel": {
         "de": "Semiotische Systeme"
       }
     }
   ],
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }
   },
   "topConceptOf": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/"
+    "id": "https://w3id.org/comein/vocabs/dazkom/"
   },
   "@context": {
     "@version": 1.1,

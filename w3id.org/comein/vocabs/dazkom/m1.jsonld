@@ -1,5 +1,5 @@
 {
-  "id": "http://w3id.org/comein/vocabs/dazkom/m1",
+  "id": "https://w3id.org/comein/vocabs/dazkom/m1",
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fm1",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fdazkom%2Fm1",
@@ -8,38 +8,38 @@
   },
   "narrower": [
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/m11",
+      "id": "https://w3id.org/comein/vocabs/dazkom/m11",
       "prefLabel": {
         "de": "Interlanguage-Hypothese"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/m12",
+      "id": "https://w3id.org/comein/vocabs/dazkom/m12",
       "prefLabel": {
         "de": "Meilensteine zweitsprachlicher Entwicklung"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/m13",
+      "id": "https://w3id.org/comein/vocabs/dazkom/m13",
       "prefLabel": {
         "de": "Gesteuerter vs. Ungesteuerter Zweitspracherwerb"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/dazkom/m14",
+      "id": "https://w3id.org/comein/vocabs/dazkom/m14",
       "prefLabel": {
         "de": "Literacy/ Bildungssprache"
       }
     }
   ],
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/mehrsprachigkeit",
+    "id": "https://w3id.org/comein/vocabs/dazkom/mehrsprachigkeit",
     "prefLabel": {
       "de": "Mehrsprachigkeit (Fokus auf den Lernprozess)"
     }
   },
   "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/dazkom/",
+    "id": "https://w3id.org/comein/vocabs/dazkom/",
     "title": {
       "de": "DaZKom - Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"
     }

@@ -23,10 +23,10 @@
   ],
   "exactMatch": [
     {
-      "id": "https://w3id.org/isced/1997/level4"
+      "id": "https://w3id.org/kim/isced-1997/level4"
     },
     {
-      "id": "https://w3id.org/isced/2011/level4"
+      "id": "https://w3id.org/kim/isced-2011/level4"
     }
   ],
   "inScheme": {
