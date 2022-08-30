@@ -6,6 +6,20 @@
   "prefLabel": {
     "de": "Mittlerer Schulabschluss"
   },
+  "altLabel": {
+    "de": [
+      "Realschulabschluss",
+      "Qualifizierter Sekundarabschluss I"
+    ]
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q1345057"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4170262-1"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/",
     "title": {

@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Fachhochschulreife"
   },
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q1391297"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4395719-5"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/",
     "title": {

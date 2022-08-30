@@ -4,13 +4,21 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fschooldegrees%2Fc5a9e3bc-3838-493b-ab6d-330ac1ba4b4a",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fschooldegrees%2Fc5a9e3bc-3838-493b-ab6d-330ac1ba4b4a",
   "prefLabel": {
-    "de": "Erster Schulabschluss"
+    "de": "Hauptschulabschluss"
   },
   "altLabel": {
     "de": [
-      "Hauptschulabschluss"
+      "Erster allgemeinbildender Schulabschluss"
     ]
   },
+  "exactMatch": [
+    {
+      "id": "https://d-nb.info/gnd/4130918-2"
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q884856"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/",
     "title": {

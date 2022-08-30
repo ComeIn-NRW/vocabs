@@ -10,14 +10,22 @@
     {
       "id": "https://w3id.org/comein/vocabs/schooldegrees/669bd2d6-a4f1-4234-acdb-5f5031b1c77d",
       "prefLabel": {
-        "de": "allgemein"
+        "de": "allgemeine Hochschulreife"
       }
     },
     {
       "id": "https://w3id.org/comein/vocabs/schooldegrees/a0e105c6-0fd3-49a0-aa12-8b15a8d6da5a",
       "prefLabel": {
-        "de": "fachgebunden"
+        "de": "fachgebundene Hochschulreife"
       }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q17123647"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4160223-7"
     }
   ],
   "inScheme": {

@@ -4,7 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fschooldegrees%2F669bd2d6-a4f1-4234-acdb-5f5031b1c77d",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fschooldegrees%2F669bd2d6-a4f1-4234-acdb-5f5031b1c77d",
   "prefLabel": {
-    "de": "allgemein"
+    "de": "allgemeine Hochschulreife"
+  },
+  "altLabel": {
+    "de": [
+      "Abitur"
+    ]
   },
   "broader": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/73658fc6-133b-4708-a675-caeebfaa6325",
@@ -12,6 +17,14 @@
       "de": "Hochschulreife"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q708387"
+    },
+    {
+      "id": "https://d-nb.info/gnd/4049194-8"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/",
     "title": {

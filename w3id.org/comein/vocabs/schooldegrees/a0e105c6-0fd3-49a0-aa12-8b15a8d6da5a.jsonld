@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fschooldegrees%2Fa0e105c6-0fd3-49a0-aa12-8b15a8d6da5a",
   "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2Fschooldegrees%2Fa0e105c6-0fd3-49a0-aa12-8b15a8d6da5a",
   "prefLabel": {
-    "de": "fachgebunden"
+    "de": "fachgebundene Hochschulreife"
   },
   "broader": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/73658fc6-133b-4708-a675-caeebfaa6325",
@@ -12,6 +12,11 @@
       "de": "Hochschulreife"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q1391140"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/comein/vocabs/schooldegrees/",
     "title": {
