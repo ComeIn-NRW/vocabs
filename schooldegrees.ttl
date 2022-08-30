@@ -30,7 +30,7 @@
     skos:altLabel "Erster allgemeinbildender Schulabschluss"@de ;
     skos:exactMatch gnd:4130918-2 ;
     gndo:gndIdentifier "4130918-2" ;
-    gndo:broaderTermGeneral gnd:4053444-3;
+    gndo:broaderTermGeneral gnd:4053444-3 ;
     skos:exactMatch wikidata:Q884856 ;
     skos:topConceptOf <> .
 
@@ -41,15 +41,14 @@
     skos:exactMatch wikidata:Q1345057 ;
     skos:exactMatch gnd:4170262-1 ;
     gndo:gndIdentifier "4170262-1" ;
-    gndo:broaderTermGeneral gnd:4053444-3;
+    gndo:broaderTermGeneral gnd:4053444-3 ;
     skos:topConceptOf <> .
 
 <3141d59a-6aea-4f7b-b8ba-e5051612ab5a> a skos:Concept ;
     skos:prefLabel "Fachhochschulreife"@de ;
-    skos:definition "Nach 12 Schuljahren an Fachoberschule, Berufsoberschule und Gymnasium fachgebundene Hochschulreife. Voraussetzung für Studium an einer Fachhochschule"@de .
     skos:exactMatch wikidata:Q1391297 ;
     skos:exactMatch gnd:4395719-5 ;
-    gndo:gndIdentifier "4395719-5";
+    gndo:gndIdentifier "4395719-5" ;
     gndo:broaderTermGeneral gnd:4053444-3 ;
     skos:topConceptOf <> .
 
@@ -58,7 +57,7 @@
     skos:exactMatch wikidata:Q17123647 ;
     skos:exactMatch gnd:4160223-7 ;
     gndo:gndIdentifier "4160223-7" ;
-    gndo:broaderTermGeneral gnd:4053444-3;
+    gndo:broaderTermGeneral gnd:4053444-3 ;
     skos:narrower <669bd2d6-a4f1-4234-acdb-5f5031b1c77d> ;
     skos:narrower <a0e105c6-0fd3-49a0-aa12-8b15a8d6da5a> ;
     skos:topConceptOf <> .
@@ -69,7 +68,7 @@
     skos:exactMatch wikidata:Q708387 ;
     skos:exactMatch gnd:4049194-8 ;
     gndo:gndIdentifier "4049194-8" ;
-    gndo:broaderTermGeneral gnd:4160223-7;
+    gndo:broaderTermGeneral gnd:4160223-7 ;
     skos:broader <73658fc6-133b-4708-a675-caeebfaa6325> ;
     skos:topConceptOf <> .
 
