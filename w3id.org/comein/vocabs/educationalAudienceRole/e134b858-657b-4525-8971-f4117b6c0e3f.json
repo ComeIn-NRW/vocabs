@@ -1,8 +1,6 @@
 {
-  "id": "http://w3id.org/comein/vocabs/educationalAudienceRole/e134b858-657b-4525-8971-f4117b6c0e3f",
+  "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/e134b858-657b-4525-8971-f4117b6c0e3f",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2FeducationalAudienceRole%2Fe134b858-657b-4525-8971-f4117b6c0e3f",
-  "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2FeducationalAudienceRole%2Fe134b858-657b-4525-8971-f4117b6c0e3f",
   "prefLabel": {
     "de": "Lehramtsanwärter/-in"
   },
@@ -12,16 +10,29 @@
       "Lehrer/-in im Vorbereitungsdienst"
     ]
   },
-  "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/educationalAudienceRole/",
-    "title": {
-      "de": "Zielgruppe",
-      "en": "Intended End User Role"
+  "inScheme": [
+    {
+      "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/",
+      "title": {
+        "de": "Zielgruppe",
+        "en": "Intended End User Role"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/comein/vocabs/educationalAudienceRole/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/",
+      "title": {
+        "de": "Zielgruppe",
+        "en": "Intended End User Role"
+      }
+    }
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -31,7 +42,6 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
@@ -63,6 +73,12 @@
       "@container": "@language"
     },
     "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
       "@container": [
         "@language",
         "@set"
@@ -110,9 +126,13 @@
     "exactMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

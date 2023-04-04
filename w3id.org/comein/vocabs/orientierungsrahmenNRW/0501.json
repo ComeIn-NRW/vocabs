@@ -1,8 +1,6 @@
 {
-  "id": "http://w3id.org/comein/vocabs/orientierungsrahmenNRW/0501",
+  "id": "https://w3id.org/comein/vocabs/orientierungsrahmenNRW/0501",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2ForientierungsrahmenNRW%2F0501",
-  "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2ForientierungsrahmenNRW%2F0501",
   "prefLabel": {
     "de": "Medienbezogene Schulentwicklung"
   },
@@ -10,17 +8,24 @@
     "de": "Schulentwicklungsarbeit an die Anforderungen der Digitalisierung anpassen und ein am Schulprogramm orientiertes schulisches Medienkonzept im Sinne eines pädagogischen Leitbildes verankern, gestalten und umsetzen."
   },
   "broader": {
-    "id": "http://w3id.org/comein/vocabs/orientierungsrahmenNRW/05",
+    "id": "https://w3id.org/comein/vocabs/orientierungsrahmenNRW/05",
     "prefLabel": {
       "de": "Schule entwickeln"
     }
   },
-  "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/orientierungsrahmenNRW/",
-    "title": {
-      "de": "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"
+  "inScheme": [
+    {
+      "id": "https://w3id.org/comein/vocabs/orientierungsrahmenNRW/",
+      "title": {
+        "de": "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/comein/vocabs/orientierungsrahmenNRW/"
+    }
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -30,7 +35,6 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
@@ -62,6 +66,12 @@
       "@container": "@language"
     },
     "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
       "@container": [
         "@language",
         "@set"
@@ -109,9 +119,13 @@
     "exactMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

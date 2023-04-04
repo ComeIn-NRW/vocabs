@@ -1,8 +1,6 @@
 {
-  "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/529906",
+  "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/529906",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2FmedienkompetenzrahmenNRW%2F529906",
-  "inbox": "https://test.skohub.io/inbox?target=vocabs%2Fw3id.org%2Fcomein%2Fvocabs%2FmedienkompetenzrahmenNRW%2F529906",
   "prefLabel": {
     "de": "Problemlösen und modellieren"
   },
@@ -11,39 +9,56 @@
   ],
   "narrower": [
     {
-      "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990601",
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990601",
       "prefLabel": {
         "de": "Prinzipien der digitalen Welt"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990602",
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990602",
       "prefLabel": {
         "de": "Algorithmen erkennen"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990603",
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990603",
       "prefLabel": {
         "de": "Modellieren und Programmieren"
       }
     },
     {
-      "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990604",
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/52990604",
       "prefLabel": {
         "de": "Bedeutung von Algorithmen"
       }
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/",
-    "title": {
-      "de": "Medienkompetenzrahmen NRW"
+  "closeMatch": [
+    {
+      "id": "http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/3A80F194-4CA1-43A1-B67A-E815B16BEFE5"
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/"
-  },
+  ],
+  "inScheme": [
+    {
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/",
+      "title": {
+        "de": "Medienkompetenzrahmen NRW"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/",
+      "title": {
+        "de": "Medienkompetenzrahmen NRW"
+      }
+    }
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -53,7 +68,6 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
@@ -85,6 +99,12 @@
       "@container": "@language"
     },
     "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
       "@container": [
         "@language",
         "@set"
@@ -132,9 +152,13 @@
     "exactMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }
