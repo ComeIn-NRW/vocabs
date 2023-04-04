@@ -1,7 +1,8 @@
-@base <http://w3id.org/comein/vocabs/orientierungsrahmenNRW/> .
+@base <https://w3id.org/comein/vocabs/orientierungsrahmenNRW/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix digcom: <https://w3id.org/comein/vocabs/DigCompEdu/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"@de ;
@@ -19,18 +20,21 @@
     skos:prefLabel "Digitale Lehr- Lernressource"@de ;
     skos:definition "Digitale Ressourcen und Materialien für das Lehren und Lernen adressatengerecht und zielorientiert auswählen, modifizieren und eigenständig erstellen."@de ;
     skos:broader <01> ;
+    skos:closeMatch digcom:2 ;
     skos:inScheme <> .
 
 <0102> a skos:Concept ;
     skos:prefLabel "Schüler- und Kompetenzorientierung"@de ;
     skos:definition "Digitale Medien im (Fach-)Unterricht reflektiert, situationsgerecht, schüler- und kompetenzorientiert unter Berücksichtigung unterschiedlicher Lernvoraussetzungen und Lernausgangslagen einsetzen."@de ;
     skos:broader <01> ;
+    skos:closeMatch digcom:5.3 ;
     skos:inScheme <> .
 
 <0103> a skos:Concept ;
     skos:prefLabel "Veränderung der Lernkultur"@de ;
     skos:definition "Lernkultur teamorientiert, kooperativ und kollaborativ unter Nutzung erweiterter pädagogischer Ansätze und technologischer Möglichkeiten gestalten und personalisiertes und selbstbestimmtes Lernen unterstützen."@de ;
     skos:broader <01> ;
+    skos:closeMatch digcom:3.3 ;
     skos:inScheme <> .
 
 <0104> a skos:Concept ;
@@ -48,6 +52,7 @@
     skos:prefLabel "Verantwortliche Mediennutzung"@de ;
     skos:definition "Die Bedeutung von Medien und Digitalisierung kennen und Schülerinnen und Schüler befähigen, das eigene Medienhandeln und die Mediengestaltung kritisch zu reflektieren, um Medien zielgerichtet und sozial verantwortlich zu nutzen."@de ;
     skos:broader <02> ;
+    skos:closeMatch digcom:6.1 ;
     skos:inScheme <> .
 
 <0202> a skos:Concept ;
@@ -66,6 +71,7 @@
     skos:prefLabel "Regeln, Normen und Werte"@de ;
     skos:definition "Gemeinsame Regeln, Normen und Werte zum kritischen und eigenverantwortlichen Umgang mit digitalen Medien in medialen Bildungsräumen in Schule und Unterricht etablieren, in gesellschaftlichen und arbeitsweltlichen Zusammenhängen reflektieren und umsetzen."@de ;
     skos:broader <02> ;
+    skos:closeMatch digcom:6.4 ;
     skos:inScheme <> .
 
 <03> a skos:Concept ;
@@ -77,18 +83,21 @@
     skos:prefLabel "Diagnostik und individuelle Förderung"@de ;
     skos:definition "Digitale Möglichkeiten für die Diagnostik und für die individuelle Förderung der Lernenden mit unterschiedlichen Lernvoraussetzungen innerhalb und außerhalb des Unterrichts nutzen."@de ;
     skos:broader <03> ;
+    skos:closeMatch digcom:4 ;
     skos:inScheme <> .
 
 <0302> a skos:Concept ;
     skos:prefLabel "Eigenverantwortliches Lernen"@de ;
     skos:definition "Medienkompetenz der Schülerinnen und Schüler erfassen, weiterentwickeln, bei der Gestaltung von Lehr- und Lernprozessen berücksichtigen und Schülerinnen und Schüler befähigen, ihr Lernen mithilfe digitaler Medien innerhalb und außerhalb der Schule zu gestalten."@de ;
     skos:broader <03> ;
+    skos:closeMatch digcom:3.4 ;
     skos:inScheme <> .
 
 <0303> a skos:Concept ;
     skos:prefLabel "Aufgaben- und Prüfungsformate"@de ;
     skos:definition "Neue, auch adaptive technologiebasierte Aufgaben- und Prüfungsformate kennen, einsetzen und selbstständig entwickeln."@de ;
     skos:broader <03> ;
+    skos:closeMatch digcom:4.1 ;
     skos:inScheme <> .
 
 <0304> a skos:Concept ;
@@ -106,6 +115,7 @@
     skos:prefLabel "Lernberatung"@de ;
     skos:definition "Möglichkeiten lernprozessbegleitenden und summativen Feedbacks mithilfe digitaler Medien kennen und gezielt für die Lernberatung einsetzen."@de ;
     skos:broader <04> ;
+    skos:closeMatch digcom:4.3 ;
     skos:inScheme <> .
 
 <0402> a skos:Concept ;

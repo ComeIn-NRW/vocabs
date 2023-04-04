@@ -1,7 +1,8 @@
-@base <http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/> .
+@base <https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix kmkdk: <http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/> .
 
 <> a skos:ConceptScheme ;
     dct:title "Medienkompetenzrahmen NRW"@de ;
@@ -33,9 +34,10 @@
 
 <52990102> a skos:Concept ;
     skos:prefLabel "Digitale Werkzeuge"@de ;
-    skos:definition "Verschiedene digitale Werkzeuge und deren Funktionsumfang kennen, auswählen sowie diese kreativ,reflektiert und zielgerichtet einsetzen"@de ;
+    skos:definition "Verschiedene digitale Werkzeuge und deren Funktionsumfang kennen, auswählen sowie diese kreativ, reflektiert und zielgerichtet einsetzen"@de ;
     skos:notation "1.2" ;
     skos:broader <529901> ;
+    skos:closeMatch kmkdk:FB52C6CD-834C-4694-B093-C5333534F900 ;
     skos:inScheme <> .
 
 <52990103> a skos:Concept ;
@@ -43,6 +45,7 @@
     skos:definition "Informationen und Daten sicher speichern, wiederfinden und von verschiedenen Orten abrufen; Informationen und Daten zusammenfassen, organisieren und strukturiert aufbewahren"@de ;
     skos:notation "1.3" ;
     skos:broader <529901> ;
+    skos:closeMatch kmkdk:D308E815-D384-4339-A741-F564E6DF9385 ;
     skos:inScheme <> .
 
 <52990104> a skos:Concept ;
@@ -59,6 +62,7 @@
       <52990202>,
       <52990203>,
       <52990204> ;
+    skos:closeMatch kmkdk:ACC2EE4E-C3CE-4300-A7BC-AB3FA340DEB3 ;
     skos:topConceptOf <> .
 
 <52990201> a skos:Concept ;
@@ -66,6 +70,7 @@
     skos:definition "Informationsrecherchen zielgerichtet durchführen und dabei Suchstrategien anwenden"@de ;
     skos:notation "2.1" ;
     skos:broader <529902> ;
+    skos:closeMatch kmkdk:01A03699-266A-4A8D-A8A8-BFA9BA0CB1AF ;
     skos:inScheme <> .
 
 <52990202> a skos:Concept ;
@@ -73,6 +78,7 @@
     skos:definition "Themenrelevante Informationen und Daten aus Medienangeboten filtern, strukturieren, umwandeln und aufbereiten"@de ;
     skos:notation "2.2" ;
     skos:broader <529902> ;
+    skos:closeMatch kmkdk:F9B03D28-DBAE-4414-A3DC-19021AB827CB ;
     skos:inScheme <> .
 
 <52990203> a skos:Concept ;
@@ -80,6 +86,7 @@
     skos:definition "Informationen, Daten und ihre Quellen sowie dahinterliegende Strategien und Absichten erkennen und kritisch bewerten"@de ;
     skos:notation "2.3" ;
     skos:broader <529902> ;
+    skos:closeMatch kmkdk:104B23E8-18E7-4D1C-B814-239403DCE6D9 ;
     skos:inScheme <> .
 
 <52990204> a skos:Concept ;
@@ -96,6 +103,7 @@
       <52990302>,
       <52990303>,
       <52990304> ;
+    skos:closeMatch kmkdk:5490EF24-A2EE-4A93-8F06-D4E535A5667D ;
     skos:topConceptOf <> .
 
 <52990301> a skos:Concept ;
@@ -103,6 +111,7 @@
     skos:definition "Kommunikations- und Kooperationsprozesse mit digitalen Werkzeugen zielgerichtet gestalten sowie mediale Produkte und Informationen teilen"@de ;
     skos:notation "3.1" ;
     skos:broader <529903> ;
+    skos:closeMatch kmkdk:86F6AEFE-EA4D-42D3-8131-A514B78C904A ;
     skos:inScheme <> .
 
 <52990302> a skos:Concept ;
@@ -110,6 +119,7 @@
     skos:definition "Regeln für digitale Kommunikation und Kooperation kennen, formulieren und einhalten"@de ;
     skos:notation "3.2" ;
     skos:broader <529903> ;
+    skos:closeMatch kmkdk:91DB462E-1B30-47AE-A149-3E61B91F4512 ;
     skos:inScheme <> .
 
 <52990303> a skos:Concept ;
@@ -117,6 +127,7 @@
     skos:definition "Kommunikations- und Kooperationsprozesse im Sinne einer aktiven Teilhabe an der Gesellschaft gestalten und reflektieren; ethische Grundsätze sowie kulturell-gesellschaftliche Normen beachten"@de ;
     skos:notation "3.3" ;
     skos:broader <529903> ;
+    skos:closeMatch kmkdk:89C99EB8-C56F-4A77-844C-C5C74DEAA5B0 ;
     skos:inScheme <> .
 
 <52990304> a skos:Concept ;
@@ -133,6 +144,7 @@
       <52990402>,
       <52990403>,
       <52990404> ;
+    skos:closeMatch kmkdk:F427CBE5-3444-405B-B3ED-31392C5AD548 ;
     skos:topConceptOf <> .
 
 <52990401> a skos:Concept ;
@@ -140,6 +152,7 @@
     skos:definition "Medienprodukte adressatengerecht planen, gestalten und präsentieren; Möglichkeiten des Veröffentlichens und Teilens kennen und nutzen"@de ;
     skos:notation "4.1" ;
     skos:broader <529904> ;
+    skos:closeMatch kmkdk:BF623466-AF3C-40F8-9789-05DA8A8F8853 ;
     skos:inScheme <> .
 
 <52990402> a skos:Concept ;
@@ -161,6 +174,7 @@
     skos:definition "Rechtliche Grundlagen des Persönlichkeits- (u.a. des Bildrechts), Urheber- und Nutzungsrechts (u.a. Lizenzen) überprüfen, bewerten und beachten"@de ;
     skos:notation "4.4" ;
     skos:broader <529904> ;
+    skos:exactMatch kmkdk:ACFF453C-4B8B-466F-B2EA-2D308CB43D7A ;
     skos:inScheme <> .
 
 <529905> a skos:Concept ;
@@ -170,6 +184,7 @@
       <52990502>,
       <52990503>,
       <52990504> ;
+    skos:closeMatch kmkdk:98BD185D-919B-4E7F-BFBB-A4DB2020CE1 ;
     skos:topConceptOf <> .
 
 <52990501> a skos:Concept ;
@@ -177,6 +192,7 @@
     skos:definition "Die Vielfalt der Medien, ihre Entwicklung und Bedeutungen kennen, analysieren und reflektieren"@de ;
     skos:notation "5.1" ;
     skos:broader <529905> ;
+    skos:closeMatch kmkdk:2C455193-6E3B-4532-98B4-80494E5684A0 ;
     skos:inScheme <> .
 
 <52990502> a skos:Concept ;
@@ -191,6 +207,7 @@
     skos:definition "Chancen und Herausforderungen von Medien für die Realitätswahrnehmung erkennen und analysieren sowie für die eigene Identitätsbildung nutzen"@de ;
     skos:notation "5.3" ;
     skos:broader <529905> ;
+    skos:closeMatch kmkdk:4A19EF92-5E68-4B69-937A-B15FC19B7804 ;
     skos:inScheme <> .
 
 <52990504> a skos:Concept ;
@@ -207,6 +224,7 @@
       <52990602>,
       <52990603>,
       <52990604> ;
+    skos:closeMatch kmkdk:3A80F194-4CA1-43A1-B67A-E815B16BEFE5 ;
     skos:topConceptOf <> .
 
 <52990601> a skos:Concept ;
@@ -221,6 +239,7 @@
     skos:definition "Algorithmische Muster und Strukturen in verschiedenen Kontexten erkennen, nachvollziehen und reflektieren"@de ;
     skos:notation "6.2" ;
     skos:broader <529906> ;
+    skos:closeMatch kmkdk:262679FB-D967-4FEC-B2E9-559D29038E6A ;
     skos:inScheme <> .
 
 <52990603> a skos:Concept ;
