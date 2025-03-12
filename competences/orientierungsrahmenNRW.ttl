@@ -6,6 +6,7 @@
 
 <> a skos:ConceptScheme ;
     dct:title "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"@de ;
+    dct:title "Framework for Teacher Training and Professional Development in NRW"@en ;
     dct:description ""@de ;
     dct:issued "2020-02-11" ;
     dct:modified "2020-02-11" ;

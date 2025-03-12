@@ -48,18 +48,22 @@
 
 <e134b858-657b-4525-8971-f4117b6c0e3f> a skos:Concept ;
   skos:prefLabel "Lehramtsanwärter/-in"@de ;
+  skos:prefLabel "trainee teacher"@en ;
   skos:altLabel "Referendar/-in"@de ;
   skos:altLabel "Lehrer/-in im Vorbereitungsdienst"@de ;
   skos:topConceptOf <> .
 
 <61249a3a-ceec-4676-8906-716ee70a65cc> a skos:Concept ;
   skos:prefLabel "Seminarleiter/-in"@de ;
+  skos:prefLabel "seminar leader"@en ;
   skos:topConceptOf <> .
 
 <faab9dbb-9e42-4121-9961-2c30ff1c0b58> a skos:Concept ;
   skos:prefLabel "Fortbildner/-in"@de ;
+  skos:prefLabel "trainer"@en ;
   skos:topConceptOf <> .
 
 <2050c4a1-6488-49eb-b554-00192be28553> a skos:Concept ;
   skos:prefLabel "Studienreferendar/-in"@de ;
+  skos:prefLabel "student teacher"@en ;
   skos:topConceptOf <> .

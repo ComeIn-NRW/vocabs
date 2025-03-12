@@ -5,7 +5,7 @@
 @prefix kmkdk: <http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Medienkompetenzrahmen NRW"@de ;
+    dct:title "Medienkompetenzrahmen NRW"@de, "Media Competence Framework NRW"@en ;
     dct:description ""@de ;
     dct:issued "2020-03-17" ;
     dct:modified "2020-03-17" ;

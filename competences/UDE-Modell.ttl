@@ -5,6 +5,7 @@
 
 <> a skos:ConceptScheme ;
     dct:title "UDE-Modell: Ein integratives Modell digitalisierungsbezogener Kompetenzen für die Lehramtsausbildung"@de ;
+    dct:title "UDE-Model: An integrative model of digitization-related competencies for teacher training"@en ;
     dct:created "2021-09-17"^^xsd:date;
     dct:modified "2021-09-17"^^xsd:date;
     dct:issued "2021-09-17"^^xsd:date;

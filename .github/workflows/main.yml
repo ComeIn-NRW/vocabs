@@ -42,10 +42,18 @@ jobs:
         run: echo "BASEURL=/vocabs" > .env
 
       - name: build public dir with docker image
-        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data -v $(pwd)/.env:/app/.env skohub/skohub-vocabs-docker:latest
+        run: > 
+          docker run 
+          -v $(pwd)/public:/app/public
+          -v $(pwd)/data:/app/data
+          -v $(pwd)/.env:/app/.env
+          -v $(pwd)/.skohub/config.yaml:/app/config.yaml
+          -v $(pwd)/.skohub/static/img:/app/static/img
+          -e GATSBY_RESPOSITORY_URL=https://github.com/ComeIn-NRW/vocabs.git
+          skohub/skohub-vocabs-docker:latest
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
