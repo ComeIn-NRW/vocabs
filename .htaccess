@@ -1,4 +1,4 @@
-DirectoryIndex index index.de index.en
+DirectoryIndex index
 AddType text/index .index
 AddType application/json .json
 AddType application/ld+json .jsonld
