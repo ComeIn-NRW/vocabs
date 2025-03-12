@@ -25,7 +25,8 @@
     {
       "id": "https://w3id.org/comein/vocabs/medienkompetenzrahmenNRW/",
       "title": {
-        "de": "Medienkompetenzrahmen NRW"
+        "de": "Medienkompetenzrahmen NRW",
+        "en": "Media Competence Framework NRW"
       }
     }
   ],
