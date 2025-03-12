@@ -2,7 +2,8 @@
   "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/e134b858-657b-4525-8971-f4117b6c0e3f",
   "type": "Concept",
   "prefLabel": {
-    "de": "Lehramtsanwärter/-in"
+    "de": "Lehramtsanwärter/-in",
+    "en": "trainee teacher"
   },
   "altLabel": {
     "de": [

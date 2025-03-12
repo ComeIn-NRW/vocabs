@@ -2,7 +2,8 @@
   "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/61249a3a-ceec-4676-8906-716ee70a65cc",
   "type": "Concept",
   "prefLabel": {
-    "de": "Seminarleiter/-in"
+    "de": "Seminarleiter/-in",
+    "en": "seminar leader"
   },
   "inScheme": [
     {

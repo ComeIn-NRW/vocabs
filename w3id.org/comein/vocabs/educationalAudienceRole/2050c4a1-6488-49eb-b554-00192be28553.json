@@ -2,7 +2,8 @@
   "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/2050c4a1-6488-49eb-b554-00192be28553",
   "type": "Concept",
   "prefLabel": {
-    "de": "Studienreferendar/-in"
+    "de": "Studienreferendar/-in",
+    "en": "student teacher"
   },
   "inScheme": [
     {

@@ -2,7 +2,8 @@
   "id": "https://w3id.org/comein/vocabs/educationalAudienceRole/faab9dbb-9e42-4121-9961-2c30ff1c0b58",
   "type": "Concept",
   "prefLabel": {
-    "de": "Fortbildner/-in"
+    "de": "Fortbildner/-in",
+    "en": "trainer"
   },
   "inScheme": [
     {
